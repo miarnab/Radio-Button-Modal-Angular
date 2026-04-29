@@ -1,0 +1,12 @@
+/* Radio button component styles */
+.jdk-form .form-group > div{ flex-direction:column; align-items:flex-start }
+.jdk-form input[type="radio"]{ width:18px; height:18px }
+.jdk-form label{ cursor:pointer }
+
+.jdk-form .btn{ margin-top:8px }
+
+.lead-small{ color:var(--muted); font-size:0.95rem }
+
+/* Simple snackbar */
+.snackbar{ position:fixed; right:20px; bottom:24px; background:linear-gradient(90deg,var(--primary-1),var(--primary-2)); color:#fff; padding:10px 14px; border-radius:10px; box-shadow:0 8px 18px rgba(2,6,23,0.12); opacity:0; transform:translateY(8px); transition:all 240ms ease-in-out; z-index:1200 }
+.snackbar.show{ opacity:1; transform:translateY(0) }

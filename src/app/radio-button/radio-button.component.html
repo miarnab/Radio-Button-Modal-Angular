@@ -32,4 +32,7 @@
 
       <button class="btn btn-success" type="submit" [disabled]="!form.valid" (click)="openModal()">Submit</button>
   </form>
-</div>
+    </div>
+
+    <!-- Snackbar -->
+    <div class="snackbar" [class.show]="snackbarVisible">{{ snackbarMessage }}</div>
